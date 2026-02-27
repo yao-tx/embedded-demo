@@ -8,8 +8,6 @@ export const FastSpringCheckout = () => {
   }, []);
 
   return (
-    <>
-      <div id="fsc-embedded-checkout-container"></div>
-    </>
+    <div id="fsc-embedded-checkout-container"></div>
   );
 }

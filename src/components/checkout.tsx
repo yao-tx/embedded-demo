@@ -17,7 +17,7 @@ export const Checkout = () => {
     ): (
       <button
         onClick={() => setShowCheckout(true)}
-        className="py-5 px-12 w-full rounded-lg bg-neutral-800 hover:opacity-90 hover:cursor-pointer transition-all"
+        className="py-5 px-12 w-full rounded-lg text-white bg-neutral-800 hover:opacity-90 hover:cursor-pointer transition-all"
       >
         Proceed with Payment
       </button>
